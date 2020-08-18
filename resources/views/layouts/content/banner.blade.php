@@ -1,9 +1,3 @@
-<!-- Stored in resources/views/child.blade.php -->
-@extends('layouts.master')
-
-@section('title', 'Page Title')
-
-@section('content')
 <section id="banner">
 	<div class="container">
 		<div class="row">
@@ -23,4 +17,3 @@
 	    <a id="scroll" href="#features" class="scroll"></a>
 	  </div>
 </section>
-@endsection

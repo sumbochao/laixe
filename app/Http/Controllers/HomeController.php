@@ -8,6 +8,6 @@ class HomeController extends BaseController
 {
     public function index()
     {
-        return $this->assign('', ['var' => 2]);
+        return $this->assign('var', [2]);
     }
 }
