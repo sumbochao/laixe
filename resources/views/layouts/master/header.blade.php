@@ -1,1 +1,1 @@
-@include('layout.master.menu.menu')
+@include('layouts.master.menu.menu')

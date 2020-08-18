@@ -13,17 +13,15 @@ use Illuminate\Support\Facades\Route;
 |
  */
 
-Route::get('/', function () {
-	return view('layouts.master');
-});
+Route::get('/', 'HomeController@index');
 
-Route::get('/events', 'ProcessSubmitOrder@processSubmitOrder');
+/*Route::get('/events', 'ProcessSubmitOrder@processSubmitOrder');
 
-//Auth::routes();
+Auth::routes();
 
 Route::get('/home', 'HomeController@index');
 
 Auth::routes();
 
 Route::get('notification', 'SendNotification@create')->name('notification.create');
-Route::post('notification', 'SendNotification@store')->name('notification.store');
+Route::post('notification', 'SendNotification@store')->name('notification.store');*/

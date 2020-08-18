@@ -4,9 +4,11 @@
 @include('layouts.master.cs')
 </head>
 <body id="top">
-@include('layout.master.header')
+@include('layouts.master.header')
 <div class="wrapper">
 @yield('content')
+</div>
+@include('layouts.master.js')
 </div>
 </body>
 </html>
