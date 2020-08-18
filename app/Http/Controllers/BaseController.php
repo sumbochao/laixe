@@ -4,8 +4,6 @@ namespace App\Http\Controllers;
 
 class BaseController extends Controller
 {
-    private $template = 'homepage';
-
     public function assign($var = '', $array)
     {
         return view($this->get_viewer(), [$var => $array]);
@@ -30,6 +28,6 @@ class BaseController extends Controller
     }
     public function get_viewer()
     {
-        return $this->template.'.'.$this->get_class_name().'.'.$this->get_method_name();
+        return $this->get_class_name().'.'.$this->get_method_name();
     }
 }

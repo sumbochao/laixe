@@ -1,9 +1,3 @@
-<!-- Stored in resources/views/child.blade.php -->
-@extends('layouts.master')
-
-@section('title', 'Page Title')
-
-@section('content')
 <section id="features">
 	<div class="container">
 				<div class="row">
@@ -45,4 +39,3 @@
 				</div>
 			</div>
 </section>
-@endsection
