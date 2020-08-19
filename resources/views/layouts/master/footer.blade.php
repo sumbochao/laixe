@@ -4,7 +4,7 @@
 			<div class="col-md-12">
 				<div class="block">
 					<a href="#"><img src="img/logo.png" alt=""></a>
-					<p>All rights reserved © 2015</p>
+					<p>All rights reserved © {{ $year }}</p>
 				</div>
 			</div>
 		</div>
