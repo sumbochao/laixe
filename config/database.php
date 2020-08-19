@@ -91,6 +91,18 @@ return [
             'prefix_indexes' => true,
         ],
 
+        'wordpress' => [ // for WordPress database (used by Corcel)
+            'driver'    => 'mysql',
+            'host'      => 'localhost',
+            'database'  => 'trainingcenter',
+            'username'  => 'root',
+            'password'  => '',
+            'charset'   => 'utf8',
+            'collation' => 'utf8_unicode_ci',
+            'prefix'    => 'nagavn_',
+            'strict'    => false,
+            'engine'    => null,
+        ],
     ],
 
     /*
