@@ -9,7 +9,9 @@ class HomeController extends BaseController
 {
     public function index()
     {
-        $year = Carbon::now('Asia/Ho_Chi_Minh');
-        return $this->assign('year', $year);
+        $posts = \App\Post::all(); // using the 'foo-bar' connection
+        //$year = Carbon::now('Asia/Ho_Chi_Minh');
+        //return $this->assign('year', $year);
+        var_dump($posts);
     }
 }
